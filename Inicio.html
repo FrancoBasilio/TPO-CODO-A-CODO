@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="Funciones.js"></script>
+    <title>TattoChill</title>
+    <link rel="icon" type="image/x-icon" href=Images\1653855081.ico>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <!-- NAV BAR -->
+    <div class="nav">
+        <div class="sections">
+            <div><a href="#1"> Acerca de mi</a></div>
+            <div><a href="#2"> Tattos disponibles</a></div>
+            <div><a href="#3"> Contacto</a></div>
+        </div>
+        <div class="redes">
+            <div class="social-media">
+                <a href="https://www.facebook.com/franco.basilio.5"><i  class='bx bxl-facebook-square'></i></a>
+            </div> 
+            <div class="social-media">
+                <a href="https://twitter.com/FrancoBasilio15"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/francobasilio99/"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+        
+        <!-- Acerca de mi -->
+        
+    <div id="1" class="acerca-de-mi">
+        <div class="mi-foto">
+            <img class="img-mi-foto" src="Images\about_img.jpg">
+        </div>
+        <div class="info-de-mi">
+            <p class="p1">Amante de los autos clásicos, las Harley Davidson, la cultura Glam y el Rock & Roll, Franco no pasa inadvertido y deja su huella inevitablemente en quienes lo conocen.
+
+                Y no solo fascina por su imagen personal, sino también por las obras de arte que realiza desde hace mas de veinte años en el cuerpo de miles de personas.
+                
+                Tatuador de profesión, Rockstar de alma, Motociclista como hobbies, Franco ha pasado las fronteras en el rubro del tatuaje, y tras muchos años de trabajo local e internacional ha sabido capitalizar su experiencia y convertir a TattooChill en un estudio de tatuajes importante y de calidad.
+                
+                Cuenta con clientes y seguidores de toda edad, sexo y grupo social. Sus cuidados y políticas de trabajo han logrado un cambio de mentalidad en el público, venciendo prejuicios de años atrás respecto al ambiente del tattoo.
+                
+                Hoy TattooChill cuenta con un un staff de quince tatuadores, tres piercers y la mejor atención al personal para recibir a quienes vengan a visitarnos!</p>
+        </div>
+    </div>
+
+
+
+
+
+        <!-- Galeria -->
+
+    <div id="2" class="images-container">          
+        <div class="animation"><img class="tatto" src="Images\3ab75d68-ece3-4bde-a925-11c34f988b76.jpg"></div>
+        <div class="animation"><img class="tatto" src="Images\5fbe86d8-ae4d-4488-b030-3f42c50472e5.jpg"></div>
+        <div class="animation"><img class="tatto" src="Images\2238aa47-f3e7-4949-956a-5e1e3907e80c.jpg"></div>
+        <div class="animation"><img class="tatto" src="Images\Butterfly tattoo.jpg"></div>
+        <div class="animation"><img class="tatto" src="Images\Conjunto de líneas vectoriales de conchas_ vector de stock (libre de regalías) 1049365748 _ Shutterstock.jpg"></div> 
+        <div class="animation"><img class="tatto" src="Images\Cráneos de animales.png"></div>
+        <div class="animation"><img class="tatto" src="Images\drawings - Piña.jpg"></div>
+        <div class="animation"><img class="tatto" src="Images\Hand Poked Tattoos.jpg"></div>
+        <div class="animation"><img class="tatto" src="Images\Hand-drawn sea Life Clipartsvg Sea Animals _ Etsy.jpg"></div>
+        <div class="animation"><img class="tatto" src="Images\Pin by hanaa♥️ on Vijay actor _ Actor photo, Actor picture, New photos hd.jpg"></div>
+        <!-- <div><img class="tatto" src="Images\Valentines Flash Sheet.jpg"></div> -->
+    </div> 
+
+    
+
+
+
+
+
+        <!-- Datos de contacto -->
+        <div id="3" class="contacto">
+            <div class="turnos">
+                <h1 class="h1-turno">Agenda turno aqui!</h1>
+                <br>
+                <div class="form">
+                <form action='' id="form" method="post">    
+                    <div>
+                            <label class="label" for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="user_name">
+                    </div>       
+                    <div>
+                            <label class="label" for="mail">Correo electrónico:</label>
+                            <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div >
+                            <label class="label" for="msg">Mensaje:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                    </div> 
+            
+                    <button  type="submit">Envíe su mensaje</button>
+                </form>
+                <div class='error' id="error"></div>
+                </div>
+            </div>
+            <div class="conteiner-map-tel">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.72979237055!2d-58.45922009218749!3d-34.599547699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb625d2401fad%3A0xd07dfb39ca907f0e!2sBlack%20Heart%20Tattoo%20Studio!5e0!3m2!1ses!2sar!4v1653810331229!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="localizacion">
+                    <u>Villa Crespo</u>
+                    <p>
+                        Acevedo 218, Capital Federal
+                    </p>
+                    <p>
+                        Horarios: Lunes a Sábados de 11 a 20hs
+                    </p>
+                    <p><i class='bx bxs-phone' ></i>:1123449147</p>
+                    <p><i class='bx bxl-gmail'></i>:tattochill@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Formulario de contacto -->
+
+
+
+
+<footer class="footer">
+    <span>Derechos&Reservados</span>
+</footer>
+
+
+</body>
+</html>
